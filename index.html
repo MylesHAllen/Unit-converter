@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Grams to Kilograms</h1>
+        <button onclick = "myFunction()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                let person = prompt("Please enter gram amount");
+            document.getElementById("demo").innerHTML = person / 1000
+            }
+        </script>
+    </div>
+    <div class="box">
+        <h1>Miles to Kilometers</h1>
+        <button onclick = "myFunction1()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo1"></p>
+        <script>
+            function myFunction1() {
+                let person1 = prompt("Please enter number of miles");
+            document.getElementById("demo1").innerHTML = person1 * 1.609
+            }
+        </script>
+    </div>
+    <div class="box">
+        <h1>Fahrenheit to Celsius</h1>
+        <button onclick = "myFunction2()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo2"></p>
+        <script>
+            function myFunction2() {
+                let person2 = prompt("Please enter fahrenheit temperature");
+            document.getElementById("demo2").innerHTML = (person2 - 32) * 5/9
+            }
+        </script>
+    </div>
+    <div class="box">
+        <h1>Kilograms to Grams</h1>
+        <button onclick = "myFunction3()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo3"></p>
+        <script>
+            function myFunction3() {
+                let person3 = prompt("Please enter kilogram amount");
+            document.getElementById("demo3").innerHTML = person3 * 1000
+            }
+        </script>
+    </div>
+    <div class="box">
+        <h1>Kilometers to Miles</h1>
+        <button onclick = "myFunction4()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo4"></p>
+        <script>
+            function myFunction4() {
+                let person4 = prompt("Please enter number of kilometers");
+            document.getElementById("demo4").innerHTML = person4 / 1.609
+            }
+        </script>
+    </div>
+    <div class="box">
+        <h1>Celsius to Fahrenheit</h1>
+        <button onclick = "myFunction5()">Enter amount</button>
+        <p>=</p> 
+        <p id="demo5"></p>
+        <script>
+            function myFunction5() {
+                let person5 = prompt("Please enter celsius temperature");
+            document.getElementById("demo5").innerHTML = person5 / 1000
+            }
+        </script>
+    </div>
+</body>
+</html>
