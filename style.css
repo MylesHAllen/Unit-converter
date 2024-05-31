@@ -3,7 +3,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: LightBlue;
+    background-color: rgb(147, 206, 221);
     margin: auto;
 }
 
@@ -14,7 +14,7 @@ body {
     border-radius: 25px;
     padding: 10px;
     padding-left: 40px;
-    background: linear-gradient(135deg, #00feba, #8ac999);
+    background-color:rgb(219, 216, 216);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -22,8 +22,10 @@ body {
 
 button {
     height: 30px;
-    width: 140px;
-    margin-right: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
 }
 
 h1 {
@@ -33,5 +35,13 @@ h1 {
 }
 
 p {
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 20px;
+}
+
+input {
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
 }
